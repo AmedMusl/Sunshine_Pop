@@ -1,0 +1,27 @@
+{
+  "sirena": {
+    "type": "tabbed",
+    "orientation": "horizontal",
+    "style": "wrap",
+    "tabs": [
+      {
+        "title": "Sirena Beach",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Sirena Beach"
+          ]
+        }
+      },
+      {
+        "title": "Hotel Delfino",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Hotel Delfino"
+          ]
+        }
+      }
+    ]
+  }
+}

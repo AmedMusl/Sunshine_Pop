@@ -1,0 +1,20 @@
+{
+    "settings_grid": {
+        "type": "container",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": 60,
+                "item_margin": "2, 2",
+                "h_alignment": "center",
+                "rows": [
+                    ["progression", "coin_shines_enabled", "blues"],
+                    ["coronashines", "boat_maximum"],
+                    ["nozzlestart", "yoshistart"]
+                ]
+            }
+        ]
+    }
+}

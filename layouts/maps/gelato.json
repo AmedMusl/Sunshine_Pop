@@ -1,0 +1,28 @@
+{
+  "gelato": {
+    "type": "tabbed",
+    "orientation": "horizontal",
+    "style": "wrap",
+    "tabs": [
+      {
+        "title": "Gelato Beach",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Gelato Beach"
+          ]
+        }
+      },
+      {
+        "title": "Sand Bird",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Sand Bird"
+          ]
+        }
+      }
+    ]
+  }
+}
+  

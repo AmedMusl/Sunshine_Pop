@@ -1,0 +1,28 @@
+{
+  "pianta": {
+    "type": "tabbed",
+    "orientation": "horizontal",
+    "style": "wrap",
+    "tabs": [
+      {
+        "title": "Pianta Village",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Pianta Village"
+          ]
+        }
+      },
+      {
+        "title": "Village Underside",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Village Underside"
+          ]
+        }
+      }
+    ]
+  }
+}
+  

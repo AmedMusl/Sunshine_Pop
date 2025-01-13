@@ -1,0 +1,136 @@
+[
+    {
+        "name": "100 Coin Shines",
+        "type": "toggle",
+        "img": "images/settings/100Coin.png",
+        "codes": "coin_shines_enabled"
+    },
+    {
+        "name": "Blue Coin Sanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/BlueCoinDisabled.png",
+                "name": "Blue Coins Disabled",
+                "codes": "blues,blues_off",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Bluesanity.png",
+                "name": "Blue Coins Enabled",
+                "codes": "blues,blues_on",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Boathouse.png",
+                "name": "Boathouse Only",
+                "codes": "blues,blues_boathouse",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Starting Nozzle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/Spray_Nozzle.png",
+                "name": "Spray Start",
+                "codes": "nozzlestart,nozzlespray",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/Hover_Nozzle.png",
+                "name": "Hover Start",
+                "codes": "nozzlestart,nozzlehover",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/fluddless.png",
+                "name": "FLUDDless",
+                "codes": "nozzlestart,nozzlefluddless",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Boat Trade Maximum",
+        "type": "consumable",
+        "img": "images/settings/Boathouse.png",
+        "max_quantity": 24,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "boat_maximum"
+    },
+    {
+        "name": "Blue Coin Maximum",
+        "type": "consumable",
+        "img": "images/items/Blue_coin.png",
+        "max_quantity": 240,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "blue_coin_maximum"
+    },
+    {
+        "name": "Yoshi Mode",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/skip_pinna.png",
+                "name": "Skip Pinna Yoshi",
+                "codes": "yoshistart,skip_pinna",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Yoshi_Mode.png",
+                "name": "Plaza Only Yoshi",
+                "codes": "yoshistart,plaza_only",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Level Progression",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/settings/Vanillaorder.png",
+                "name": "Vanilla Level Progression",
+                "codes": "progression,progression_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/Ticket.png",
+                "name": "Ticket Progression",
+                "codes": "progression,progression_ticket",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Corona Mountain Shines",
+        "type": "consumable",
+        "img": "images/settings/CoronaShines.png",
+        "max_quantity": 120,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "coronashines"
+    }
+]

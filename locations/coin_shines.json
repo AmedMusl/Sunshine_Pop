@@ -1,0 +1,234 @@
+[
+    {
+        "name": "100 Coin Shine Sprites",
+        "chest_unopened_img": "images/items/Shine_Sprite.png",
+        "chest_opened_img": "images/items/Shine_Sprite_Grey.png",
+        "visibility_rules":["coin_shines_enabled"],
+        "children": [
+            {
+                "name": "Delfino Plaza 100 Coins",
+                "access_rules":["$skipintro", "$splasher"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Plaza 100 Coins",
+                                "access_rules":["$spray", "$rocket"],
+                                "item_count": 1
+                            }
+                            ],
+                            "map_locations": [
+                            {
+                                "map": "Delfino Plaza",
+                                "x": 500,
+                                "y": 945
+                            },
+                            {
+                                "map": "Delfino Airstrip",
+                                "x": 649,
+                                "y": 650
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bianco Hills 100 Coins",
+                "access_rules":["$isBiancoEnterable"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bianco 100 Coins",
+                                "access_rules":["$spray, $hover"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Bianco Hills",
+                                "x": 815,
+                                "y": 550
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ricco Harbor 100 Coins",
+                "access_rules":["$isRiccoEnterable"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Ricco 100 Coins",
+                                "access_rules":["$hover"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Ricco Harbor",
+                                "x": 1025,
+                                "y": 235
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Gelato Beach 100 Coins",
+                "access_rules":["$isGelatoEnterable"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Gelato 100 Coins",
+                                "access_rules":["$spray", "$hover"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Gelato Beach",
+                                "x": 415,
+                                "y": 240
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pinna Park 100 Coins",
+                "access_rules":["$isPinnaEnterable"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pinna 100 Coins",
+                                "access_rules":["$spray"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Pinna Park",
+                                "x": 1390,
+                                "y": 1010
+                            },
+                            {
+                                "map": "Pinna Park",
+                                "x": 654,
+                                "y": 859
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sirena Beach 100 Coins",
+                "access_rules":["$isSirenaEnterable"],
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                            "$yoshi"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Sirena 100 Coins",
+                                "access_rules":["$spray"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Sirena Beach",
+                                "x": 788,
+                                "y": 938
+                            },
+                            {
+                                "map": "Hotel Delfino",
+                                "x": 357,
+                                "y": 1171
+                            },
+                            {
+                                "map": "Hotel Delfino",
+                                "x": 850,
+                                "y": 1361
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Noki Bay 100 Coins",
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Noki 100 Coins",
+                                "access_rules":["$hover"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Noki Bay",
+                                "x": 335,
+                                "y": 635
+                            },
+                            {
+                                "map": "Noki Bay",
+                                "x": 1330,
+                                "y": 710
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pianta Village 100 Coins",
+                "children": [
+                    {
+                        "name": "Secret Shine",
+                        "access_rules": [
+                        ],
+                        "sections": [
+                            {
+                                "name": "Pianta 100 Coins",
+                                "access_rules":["$spray, $hover"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Pianta Village",
+                                "x": 1039,
+                                "y": 831
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

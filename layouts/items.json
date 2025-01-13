@@ -1,0 +1,19 @@
+{
+    "items_grid": {
+        "type": "container",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2, 2",
+                "h_alignment": "center",
+                "rows": [
+                    ["bianco", "ricco", "gelato", "pinna", "sirena", "noki", "pianta"],
+                    ["fludd", "hover", "rocket", "turbo", "yoshi"],
+                    ["shine", "blue"]
+                ]
+            }
+        ]
+    }
+}

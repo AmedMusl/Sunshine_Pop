@@ -1,0 +1,92 @@
+[
+  {
+  "name": "Overview",
+  "location_size": 14,
+  "location_border_thickness": 2,
+  "img": "images/maps/Overview.png"
+  },
+  {
+  "name": "Delfino Airstrip",
+  "location_size": 24,
+  "location_border_thickness": 2,
+  "img": "images/maps/DelfinoAirstrip.png"
+  },
+  {
+    "name": "Delfino Plaza",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/DelfinoPlaza.png"
+  },
+  {
+    "name": "Bianco Hills",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/BiancoHills.png"
+  },
+  {
+    "name": "Ricco Harbor",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/RiccoHarbor.png"
+  },
+  {
+    "name": "Gelato Beach",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/GelatoBeach.png"
+  },
+  {
+    "name": "Sand Bird",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/SandBird.png"
+  },
+  {
+    "name": "Pinna Park",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/PinnaPark.png"
+  },
+  {
+    "name": "Sirena Beach",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/SirenaBeach.png"
+  },
+  {
+    "name": "Hotel Delfino",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/HotelDelfino.png"
+  },
+  {
+    "name": "Noki Bay",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/NokiBay.png"
+  },
+  {
+    "name": "Under the Waterfall",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/Mare.png"
+  },
+  {
+    "name": "Pianta Village",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/PiantaVillage.png"
+  },
+  {
+    "name": "Village Underside",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/VillageUnderside.png"
+  },
+  {
+    "name": "Corona Mountain",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "img": "images/maps/CoronaMountain.png"
+  }
+]

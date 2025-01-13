@@ -1,0 +1,28 @@
+{
+  "noki": {
+    "type": "tabbed",
+    "orientation": "horizontal",
+    "style": "wrap",
+    "tabs": [
+      {
+        "title": "Noki Bay",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Noki Bay"
+          ]
+        }
+      },
+      {
+        "title": "Under the Waterfall",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Under the Waterfall"
+          ]
+        }
+      }
+    ]
+  }
+}
+  

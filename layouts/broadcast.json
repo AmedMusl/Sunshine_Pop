@@ -1,0 +1,22 @@
+{
+  "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "5,5",
+        "background": "#212121",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "margin": "0,0",
+            "item_margin": "1,2",
+            "rows": [
+              [ "bianco", "ricco", "gelato", "ricco", "pinna", "sirena", "noki", "pianta" ],
+              ["fludd", "hover", "rocket", "turbo", "yoshi", "", "", ""],
+              ["shine", "blue", "", "", "", "", "", ""]
+            ]
+          }
+        ]
+    }
+}

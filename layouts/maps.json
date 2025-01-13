@@ -1,0 +1,102 @@
+{
+  "layout_maps": {
+    "type": "container",
+    "content": [
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+          "title": "Overview",
+          "content": {
+            "type": "layout",
+            "orientation": "horizontal",
+            "style": "wrap",
+            "key": "totals"
+          }
+        },
+          {
+            "title": "Delfino Plaza",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "plaza"
+            }
+          },
+          {
+            "title": "Bianco Hills",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "bianco"
+            }
+          },
+          {
+            "title": "Ricco Harbor",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "ricco"
+            }
+          },
+          {
+            "title": "Gelato Beach",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "gelato"
+            }
+          },
+          {
+            "title": "Pinna Park",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "pinna"
+            }
+          },
+          {
+            "title": "Sirena Beach",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "sirena"
+            }
+          },
+          {
+            "title": "Noki Bay",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "noki"
+            }
+          },
+          {
+            "title": "Pianta Village",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "pianta"
+            }
+          },
+          {
+            "title": "Corona Mountain",
+            "content": {
+              "type": "layout",
+              "orientation": "horizontal",
+              "style": "wrap",
+              "key": "corona"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

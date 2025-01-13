@@ -1,0 +1,28 @@
+{
+  "plaza": {
+    "type": "tabbed",
+    "orientation": "horizontal",
+    "style": "wrap",
+    "tabs": [
+      {
+        "title": "Delfino Plaza",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Delfino Plaza"
+          ]
+        }
+      },
+      {
+        "title": "Delfino Airstrip",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Delfino Airstrip"
+          ]
+        }
+      }
+    ]
+  }
+}
+  

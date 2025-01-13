@@ -1,0 +1,65 @@
+{
+    "tracker_default": {
+        "type": "dock",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "dock",
+                "dock": "left",
+                "dropshadow": true,
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "top",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Items",
+                                "margin": "0,0,3,0",
+                                "content": {
+                                    "type": "layout",
+                                    "h_alignment": "center",
+                                    "v_alignment": "center",
+                                    "key": "items_grid"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "dock",
+                        "dock": "left",
+                        "dropshadow": true,
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Settings",
+                                "margin": "0,0,3,0",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "h_alignment": "center",
+                                        "v_alignment": "center",
+                                        "key": "settings_grid"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "background": "#000000",
+                "content": [
+                    {
+                        "type": "layout",
+                        "h_alignment": "stretch",
+                        "v_alignment": "stretch",
+                        "margin": "0,0,3,0",
+                        "key": "layout_maps"
+                    }
+                ]
+            }
+        ]
+    }
+}
