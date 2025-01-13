@@ -178,6 +178,7 @@
             },
             {
                 "name": "Noki Bay 100 Coins",
+                "access_rules":["$isNokiEnterable"],
                 "children": [
                     {
                         "name": "Secret Shine",
@@ -207,6 +208,7 @@
             },
             {
                 "name": "Pianta Village 100 Coins",
+                "access_rules":["$isPiantaEnterable"],
                 "children": [
                     {
                         "name": "Secret Shine",
