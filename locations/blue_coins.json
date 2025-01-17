@@ -129,7 +129,7 @@
       {
         "name": "Tower Yellow Goo",
         "access_rules": [
-          "$yoshi"
+          "yoshi"
         ],
         "sections": [
           {
@@ -169,7 +169,7 @@
       {
         "name": "Police Station Yellow Goo",
         "access_rules": [
-          "$yoshi"
+          "yoshi"
         ],
         "sections": [
           {
@@ -229,7 +229,7 @@
       {
         "name": "Blue Bird Near Sirena Pipe",
         "access_rules": [
-          "$spray"
+          "$spray", "yoshi"
         ],
         "sections": [
           {
@@ -249,7 +249,7 @@
       {
         "name": "Blue Bird Near Crate Guy",
         "access_rules": [
-          "$spray"
+          "$spray", "yoshi"
         ],
         "sections": [
           {
@@ -1107,7 +1107,7 @@
       {
         "name": "Rooftop M",
         "access_rules": [
-          "$spray"
+          "$spray", "$hover"
         ],
         "sections": [
           {
@@ -1876,7 +1876,7 @@
       {
         "name": "Sand Cabana Roof",
         "access_rules": [
-          "$rocket"
+          ""
         ],
         "sections": [
           {
@@ -1896,7 +1896,7 @@
       {
         "name": "Shack",
         "access_rules": [
-          ""
+          "$rocket"
         ],
         "sections": [
           {
@@ -3124,7 +3124,7 @@
         ]
       },
       {
-        "name": "Second Floor Lamp",
+        "name": "Third Floor Lamp",
         "access_rules": [
           "$spray"
         ],
@@ -3306,7 +3306,7 @@
       {
         "name": "Pineapple Room Crate",
         "access_rules": [
-          "$yoshi"
+          "$yoshi, $spray"
         ],
         "sections": [
           {
@@ -3893,7 +3893,7 @@
         ]
       },
       {
-        "name": "M",
+        "name": "Top Secret Path M",
         "access_rules": [
           "$spray, $hover"
         ],

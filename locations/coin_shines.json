@@ -46,7 +46,7 @@
                         "sections": [
                             {
                                 "name": "Bianco 100 Coins",
-                                "access_rules":["$spray, $hover"],
+                                "access_rules":["$spray, $yoshi"],
                                 "item_count": 1
                             }
                         ],
@@ -96,7 +96,7 @@
                         "sections": [
                             {
                                 "name": "Gelato 100 Coins",
-                                "access_rules":["$spray", "$hover"],
+                                "access_rules":["$spray, $yoshi"],
                                 "item_count": 1
                             }
                         ],
@@ -217,7 +217,7 @@
                         "sections": [
                             {
                                 "name": "Pianta 100 Coins",
-                                "access_rules":["$spray, $hover"],
+                                "access_rules":["$spray, $yoshi"],
                                 "item_count": 1
                             }
                         ],

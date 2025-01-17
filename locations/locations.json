@@ -419,7 +419,7 @@
         "sections": [
           {
             "name": "Petey Piranha Strikes Back",
-            "access_rules":["$spray, $rocket"], //dont know why rocket is needed for this??
+            "access_rules":["$spray"],
             "item_count": 1
           }
         ],
@@ -1578,11 +1578,12 @@
       {
         "name": "Secret Shine",
         "access_rules": [
+          "$yoshi"
         ],
         "sections": [
           {
             "name": "Soak the Sun",
-            "access_rules":["$spray, $hover"],
+            "access_rules":["$spray, $height"],
             "item_count": 1
           }
         ],
