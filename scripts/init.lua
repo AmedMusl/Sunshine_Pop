@@ -42,6 +42,7 @@ Tracker:AddLayouts("layouts/maps.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/episodes.json")
 
 Tracker:AddLayouts("layouts/maps/totals.json")
 Tracker:AddLayouts("layouts/maps/plaza.json")

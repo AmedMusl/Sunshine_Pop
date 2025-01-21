@@ -1,0 +1,18 @@
+{
+    "episodes_grid": {
+        "type": "container",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": 120,
+                "item_margin": "2, 2",
+                "h_alignment": "center",
+                "rows": [
+                    ["episode"]
+                ]
+            }
+        ]
+    }
+}

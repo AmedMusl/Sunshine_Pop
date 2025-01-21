@@ -430,3 +430,9 @@ end
 function B23()
     return Boathousetrade() >= 23
 end
+
+-- Episode Select
+
+function allEpisodes()
+    return has("episode1") or has("episode2") or has("episode3") or has("episode4") or has("episode5") or has("episode6") or has ("episode7") or has("episode8") or has("allepisodes")
+end
