@@ -140,6 +140,12 @@
         "allow_disabled": false,
         "stages": [
             {
+                "img": "images/chapters/episode18.png",
+                "name": "All Episodes",
+                "codes": "allepisodes",
+                "inherit_codes": false
+            },
+            {
                 "img": "images/chapters/episode1.PNG",
                 "name": "Episode 1",
                 "codes": "episode,episode1",
@@ -185,12 +191,6 @@
                 "img": "images/chapters/episode8.PNG",
                 "name": "Episode 8",
                 "codes": "episode,episode8",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/chapters/episode18.png",
-                "name": "All Episodes",
-                "codes": "allepisodes",
                 "inherit_codes": false
             }
         ]

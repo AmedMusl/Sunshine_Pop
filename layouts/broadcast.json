@@ -12,7 +12,7 @@
             "margin": "0,0",
             "item_margin": "1,2",
             "rows": [
-              [ "bianco", "ricco", "gelato", "ricco", "pinna", "sirena", "noki", "pianta" ],
+              ["bianco", "ricco", "gelato", "pinna", "sirena", "noki", "pianta"],
               ["fludd", "hover", "rocket", "turbo", "yoshi", "", "", ""],
               ["shine", "blue", "", "", "", "", "", ""]
             ]

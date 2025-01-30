@@ -339,6 +339,10 @@
                     {
                         "name": "M Graffiti by Fountain",
                         "ref": "Ricco Harbor Blue Coins/Fountain M/Blue Coin"
+                    },
+                    {
+                        "name": "In the Air in Open Water",
+                        "ref": "Ricco Harbor Blue Coins/Blooper Open Water/Blue Coin"
                     }
                 ],
                 "map_locations": [
@@ -450,10 +454,6 @@
                 "sections": [
                     {
                         "ref": "Ricco Harbor/Episode 6/Red Coins on the Water"
-                    },
-                    {
-                        "name": "In the Air in Open Water",
-                        "ref": "Ricco Harbor Blue Coins/Blooper Open Water/Blue Coin"
                     }
                 ],
                 "map_locations": [

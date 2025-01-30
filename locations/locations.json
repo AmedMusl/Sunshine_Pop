@@ -336,7 +336,7 @@
           {
             "name": "Road to the Big Windmill",
             "visibility_rules":["episode1", "allepisodes"],
-            "access_rules":["$splasher"],
+            "access_rules":["$spray"],
             "item_count": 1
           }
         ],
@@ -518,7 +518,7 @@
         "sections": [
           {
             "name": "Gooper Blooper Breaks Out",
-            "access_rules":["$hover"],
+            "access_rules":["$spray"],
             "item_count": 1
           }
         ],
@@ -534,7 +534,7 @@
         "name": "Episode 2",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$hover"
+          "$spray"
         ],
         "sections": [
           {
@@ -563,7 +563,7 @@
         "sections": [
           {
             "name": "The Caged Shine Sprite",
-            "access_rules":["$hover"],
+            "access_rules":["$height"],
             "item_count": 1
           }
         ],
@@ -579,17 +579,17 @@
         "name": "Episode 4",
         "visibility_rules":["episode4", "allepisodes"],
         "access_rules": [
-          "$Ricco47"
+          "$spray"
         ],
         "sections": [
           {
             "name": "The Secret of Ricco Tower",
-            "access_rules":["$hover, $rocket"],
+            "access_rules":["$height"],
             "item_count": 1
           },
           {
             "name": "Red Coins in Ricco Tower",
-            "access_rules":["$hover, $rocket"],
+            "access_rules":["$height"],
             "item_count": 1
           }
         ],
@@ -605,12 +605,12 @@
         "name": "Episode 5",
         "visibility_rules":["episode5", "allepisodes"],
         "access_rules": [
-          "$Ricco47"
+          "$spray"
         ],
         "sections": [
           {
             "name": "Gooper Blooper Returns",
-            "access_rules":["$hover, $rocket"],
+            "access_rules":["$height"],
             "item_count": 1
           }
         ],
@@ -626,12 +626,12 @@
         "name": "Episode 6",
         "visibility_rules":["episode6", "allepisodes"],
         "access_rules": [
-          "$Ricco47"
+          "$spray"
         ],
         "sections": [
           {
             "name": "Red Coins on the Water",
-            "access_rules":["$hover, $rocket"],
+            "access_rules":["$height"],
             "item_count": 1
           }
         ],
@@ -647,12 +647,12 @@
         "name": "Episode 7",
         "visibility_rules":["episode7", "allepisodes"],
         "access_rules": [
-          "$Ricco47"
+          "$spray"
         ],
         "sections": [
           {
             "name": "Shadow Mario Revisited",
-            "access_rules":["$hover, $rocket"],
+            "access_rules":["$height"],
             "item_count": 1
           }
         ],
@@ -668,12 +668,12 @@
         "name": "Episode 8",
         "visibility_rules":["episode8", "allepisodes"],
         "access_rules": [
-          "$Ricco47"
+          "$spray"
         ],
         "sections": [
           {
             "name": "Yoshi's Fruit Adventure",
-            "access_rules":["$yoshi"],
+            "access_rules":["$yoshi, $height"],
             "item_count": 1
           }
         ],
@@ -894,7 +894,7 @@
         "sections": [
           {
             "name": "Sandy Shine Sprite",
-            "access_rules":["$spray"],
+            "access_rules":["$splasher"],
             "item_count": 1
           }
         ],

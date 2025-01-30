@@ -1562,7 +1562,7 @@
         "name": "Caged Blooper",
         "visibility_rules":["episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$Ricco47, $height"
+          "$height"
         ],
         "sections": [
           {
@@ -1583,7 +1583,7 @@
         "name": "Blue Butterflies",
         "visibility_rules":["episode8", "allepisodes"],
         "access_rules": [
-          "$hover, $rocket, $yoshi"
+          "$height, $yoshi"
         ],
         "sections": [
           {
@@ -1604,7 +1604,7 @@
         "name": "Wall Klamber",
         "visibility_rules":["episode3", "episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$hover, $rocket, $yoshi"
+          "$height, $yoshi"
         ],
         "sections": [
           {
@@ -1646,7 +1646,7 @@
         "name": "Fish Basket",
         "visibility_rules":["episode6", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$Ricco47, $rocket"
+          "$height"
         ],
         "sections": [
           {

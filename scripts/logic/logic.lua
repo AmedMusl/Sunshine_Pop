@@ -124,16 +124,16 @@ function isBiancoEnterable()
     if has("progression") == has("progression_ticket") then
         return has("bianco")
     elseif has("progression") == has("progression_vanilla") then
-        return has("fludd")
+        return squirter()
     end
 end
 
 function Bianco3()
-    return has("fludd") and has("$spray")
+    return has("fludd")
 end
 
 function Bianco4()
-    return has("fludd") and has("hover") or has("rocket")
+    return has("fludd") and has("hover")
 end
 
 -- Ricco
@@ -142,13 +142,10 @@ function isRiccoEnterable()
     if has("progression") == has("progression_ticket") then
         return has("ricco")
     elseif has("progression") == has("progression_vanilla") then
-        return has("fludd") and shines() >= 3
+        return squirter() and shines() >= 3
     end
 end
 
-function Ricco47()
-    return has("hover")
-end
 
 -- Gelato
 
@@ -156,7 +153,7 @@ function isGelatoEnterable()
     if has("progression") == has("progression_ticket") then
         return has("gelato")
     elseif has("progression") == has("progression_vanilla") then
-        return has("fludd") and shines() >= 5
+        return (has("fludd") or has("yoshi") or has("hover")) and shines() >= 5
     end
 end
 
