@@ -99,11 +99,11 @@ function height()
 end
 
 function speed()
-    return has("spray") or has("turbo")
+    return has("fludd") or has("turbo")
 end
 
 function squirter()
-    return has("spray") or has("yoshi")
+    return has("fludd") or has("yoshi")
 end
 
 
