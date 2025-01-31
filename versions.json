@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "0.1.0",
-            "download_url": "https://github.com/AmedMusl/Sunshine_Pop/releases/download/v0.1.0/sm_poptracker.zip",
-            "sha256": "6A8B183427C2C7BFBBB354738C81F58CADBB64BAFB715313FA82D8267C13741A",
+            "download_url": "https://github.com/AmedMusl/Sunshine_Pop/releases/download/v0.1.1/sm_poptracker.zip",
+            "sha256": "30E039ED9C8D1929DA1337E6235E082F32F45805182F61227CC6D201FF257CB0",
             "changelog": [
                 "Logic Fixes and Added Visibility Rules to Trade Shines"
             ]
