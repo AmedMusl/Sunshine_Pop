@@ -59,7 +59,7 @@ function hover()
 end
 
 function turbo()
-   return has("turbo") 
+   return has("turbo")
 end
 
 function rocket()
@@ -82,7 +82,7 @@ end
 
 function yoshi()
     if has("yoshistart") == has("skip_pinna") then
-        return has("yoshi") and isPinnaEnterable() and Pinna4()
+        return has("yoshi")
     elseif has("yoshistart") == has("plaza_only") then
         return isPinnaEnterable() and Pinna4()
     end

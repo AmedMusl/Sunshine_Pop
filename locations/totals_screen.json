@@ -107,6 +107,10 @@
                     {
                         "name": "Highest Pinwheel Platform",
                         "ref": "Bianco Hills Blue Coins/Highest Platform/Blue Coin"
+                    },
+                    {
+                        "name": "Clean the Pianta Tourist",
+                        "ref": "Bianco Hills Blue Coins/Tourist (Changes Location Each Episode)/Blue Coin"
                     }
                 ],
                 "map_locations": [
@@ -230,10 +234,6 @@
                     {
                         "name": "Beehive",
                         "ref": "Bianco Hills Blue Coins/Beehive/Blue Coin"
-                    },
-                    {
-                        "name": "Clean the Pianta Between the Walls",
-                        "ref": "Bianco Hills Blue Coins/Tourist/Blue Coin"
                     }
                 ],
                 "map_locations": [

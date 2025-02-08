@@ -710,7 +710,7 @@
               ]
           },
           {
-              "name": "Tourist",
+              "name": "Tourist (Changes Location Each Episode)",
               "visibility_rules":["episode3", "episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
               "access_rules": [
                 "$spray, $hover"
@@ -726,7 +726,43 @@
                       "map": "Bianco Hills",
                       "x": 835,
                       "y": 525,
-                      "size": 16
+                      "size": 16,
+                      "restrict_visibility_rules":["episode8", "allepisodes"]
+                  },
+                  {
+                    "map": "Bianco Hills",
+                    "x": 1398,
+                    "y": 645,
+                    "size": 16,
+                    "restrict_visibility_rules":["episode3", "allepisodes"]
+                  },
+                  {
+                    "map": "Bianco Hills",
+                    "x": 964,
+                    "y": 1009,
+                    "size": 16,
+                    "restrict_visibility_rules":["episode4", "allepisodes"]
+                  },
+                  {
+                    "map": "Bianco Hills",
+                    "x": 632,
+                    "y": 897,
+                    "size": 16,
+                    "restrict_visibility_rules":["episode5", "allepisodes"]
+                  },
+                  {
+                    "map": "Bianco Hills",
+                    "x": 985,
+                    "y": 299,
+                    "size": 16,
+                    "restrict_visibility_rules":["episode6", "allepisodes"]
+                  },
+                  {
+                    "map": "Bianco Hills",
+                    "x": 1493,
+                    "y": 461,
+                    "size": 16,
+                    "restrict_visibility_rules":["episode7", "allepisodes"]
                   }
               ]
           },
@@ -1289,7 +1325,7 @@
         "name": "Blooper Open Water",
         "visibility_rules":["$allEpisodes"],
         "access_rules": [
-          ""
+          "$rocket"
         ],
         "sections": [
           {
@@ -1520,7 +1556,7 @@
         "name": "Mesh Wall Klamber",
         "visibility_rules":["episode3", "episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$hover"
+          "$spray"
         ],
         "sections": [
           {
@@ -1541,7 +1577,7 @@
         "name": "Mesh Ceiling Klamber",
         "visibility_rules":["episode3", "episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$hover"
+          "$spray"
         ],
         "sections": [
           {
@@ -1602,7 +1638,7 @@
       },
       {
         "name": "Wall Klamber",
-        "visibility_rules":["episode3", "episode4", "episode5", "episode6", "episode7", "episode8", "allepisodes"],
+        "visibility_rules":["episode8", "allepisodes"],
         "access_rules": [
           "$height, $yoshi"
         ],
