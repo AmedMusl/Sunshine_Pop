@@ -103,6 +103,16 @@ function onClear(slot_data)
         local ticketing = Tracker:FindObjectForCode("progression")
         ticketing.CurrentStage = (slot_data['ticket_mode'])
     end
+
+    if slot_data['coin_shine_enabled'] then
+        local coinsanity = Tracker:FindObjectForCode("coin_shines_enabled")
+        coinsanity.Active = (slot_data['coin_shine_enabled'])
+    end
+
+    if slot_data['boathouse_maximum'] then
+        local boating = Tracker:FindObjectForCode("boat_maximum")
+        boating.AcquiredCount = (slot_data['boathouse_maximum'])
+    end
 end
 
 function onItem(index, item_id, item_name, player_number)
