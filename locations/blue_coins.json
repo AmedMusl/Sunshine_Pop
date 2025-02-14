@@ -269,7 +269,7 @@
       {
         "name": "Statue X",
         "access_rules": [
-          ""
+          "$splasher"
         ],
         "sections": [
           {
@@ -289,7 +289,7 @@
       {
         "name": "Bell Tower X",
         "access_rules": [
-          ""
+          "$splasher"
         ],
         "sections": [
           {
@@ -369,7 +369,7 @@
       {
         "name": "Coconut Basket",
         "access_rules": [
-          ""
+          "$splasher"
         ],
         "sections": [
           {
@@ -389,7 +389,7 @@
       {
         "name": "Ice Cube",
         "access_rules": [
-          ""
+          "$isCoronaEnterable, $turbo, $spray"
         ],
         "sections": [
           {
@@ -1325,7 +1325,7 @@
         "name": "Blooper Open Water",
         "visibility_rules":["$allEpisodes"],
         "access_rules": [
-          "$rocket"
+          "$rocket", "$spray"
         ],
         "sections": [
           {

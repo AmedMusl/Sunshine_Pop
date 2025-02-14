@@ -1,11 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "0.2.0",
-            "download_url": "https://github.com/AmedMusl/Sunshine_Pop/releases/download/v0.2.0/sms_poptracker.zip",
-            "sha256": "1A31C8D4F63155944CC7C106735F0FF97CEDDC4E71C521957D5782CCD0134B72",
+            "package_version": "0.2.1",
+            "download_url": "https://github.com/AmedMusl/Sunshine_Pop/releases/download/v0.2.1/sms_poptracker.zip",
+            "sha256": "D2037627F744588F4060826D1A850D68B6C373C93BC6B6906C319C6E699810D9",
             "changelog": [
-                "See Github for Changelog"
+                "Minor Logic fixes"
             ]
         }
     ]
