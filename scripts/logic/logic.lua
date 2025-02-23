@@ -88,6 +88,11 @@ function yoshi()
     end
 end
 
+function skipPinnaYoshi()
+    if has("yoshistart") == has("skip_pinna") then
+        return has("yoshi")
+    end
+end
 -- General Items
 
 function splasher()

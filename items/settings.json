@@ -88,15 +88,15 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/settings/skip_pinna.png",
-                "name": "Skip Pinna Yoshi",
-                "codes": "yoshistart,skip_pinna",
-                "inherit_codes": false
-            },
-            {
                 "img": "images/settings/Yoshi_Mode.png",
                 "name": "Plaza Only Yoshi",
                 "codes": "yoshistart,plaza_only",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/skip_pinna.png",
+                "name": "Skip Pinna 4",
+                "codes": "yoshistart,skip_pinna",
                 "inherit_codes": false
             }
         ]

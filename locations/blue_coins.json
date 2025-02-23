@@ -389,7 +389,7 @@
       {
         "name": "Ice Cube",
         "access_rules": [
-          "$isCoronaEnterable, $turbo, $spray"
+          "$iscoronaenterable, $turbo, $spray"
         ],
         "sections": [
           {
@@ -2813,7 +2813,8 @@
         "name": "Spawn Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
@@ -2834,7 +2835,8 @@
         "name": "Flower Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
@@ -2855,7 +2857,8 @@
         "name": "Gate Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
@@ -2876,7 +2879,8 @@
         "name": "Rock Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
@@ -2897,7 +2901,8 @@
         "name": "Middle Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
@@ -2918,7 +2923,8 @@
         "name": "Sunflower Basket",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {

@@ -938,11 +938,13 @@
         "name": "Episode 2",
         "visibility_rules":["episode2", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
             "name": "The Beach Cannon's Secret",
+            "access_rules":["$spray"],
             "item_count": 1
           },
           {
@@ -963,11 +965,13 @@
         "name": "Episode 3",
         "visibility_rules":["episode3", "allepisodes"],
         "access_rules": [
+          "$spray",
+          "$skipPinnaYoshi"
         ],
         "sections": [
           {
             "name": "Red Coins of the Pirate Ships",
-            "access_rules":["$spray, $hover"],
+            "access_rules":["$hover"],
             "item_count": 1
           }
         ],
@@ -987,7 +991,10 @@
         "sections": [
           {
             "name": "The Wilted Sunflowers",
-            "access_rules":["$spray, $hover"],
+            "access_rules":[
+              "$spray, $hover",
+              "$skipPinnaYoshi"
+            ],
             "item_count": 1
           }
         ],
