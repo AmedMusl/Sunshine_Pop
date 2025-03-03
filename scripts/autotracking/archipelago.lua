@@ -32,7 +32,7 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
-    -- print(dump_table(slot_data))
+    print(dump_table(slot_data))
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
@@ -115,7 +115,12 @@ function onClear(slot_data)
         boating.AcquiredCount = (slot_data['boathouse_maximum'])
     end
 
-    
+    if Archipelago.PlayerNumber > -1 then
+        print("SUCCESS?")
+        next_stage = "sms_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({next_stage})
+        Archipelago:Get({next_stage})
+    end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -168,8 +173,36 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onNotify(key, value, old_value)
+	if value ~= old_value then
+		if key == next_stage then
+            print("map: "..value)
+        end
+	end
+end
+
+function onNotifyLaunch(key, value)
+    if key == next_stage then
+        print("map: "..value)
+    end
+end
+
+-- function onMapChange(key, value, old)
+--     print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+--     print(dump_table(MAP_MAPPING[tostring(value)]))
+
+--     tabs = MAP_MAPPING[tostring(value)]
+--     for i, tab in ipairs(tabs) do
+--         Tracker:UiHint("ActivateTab", tab)
+--     end
+-- end
+
 
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+-- Archipelago:AddSetReplyHandler("map_key", onMapChange)
+-- Archipelago:AddRetrievedHandler("map_key", onMapChange)
