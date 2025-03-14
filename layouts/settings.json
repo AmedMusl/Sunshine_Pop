@@ -12,7 +12,8 @@
                 "rows": [
                     ["progression", "coin_shines_enabled", "blues"],
                     ["coronashines", "boat_maximum"],
-                    ["nozzlestart", "yoshistart"]
+                    ["nozzlestart", "yoshistart"],
+                    ["automap"]
                 ]
             }
         ]

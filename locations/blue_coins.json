@@ -3731,7 +3731,7 @@
         "name": "Rocket",
         "visibility_rules":["$allEpisodes"],
         "access_rules": [
-          "$hover, $rocket"
+          "$rocket"
         ],
         "sections": [
           {

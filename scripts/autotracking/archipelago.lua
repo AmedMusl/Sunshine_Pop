@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -117,9 +118,9 @@ function onClear(slot_data)
 
     if Archipelago.PlayerNumber > -1 then
         print("SUCCESS?")
-        next_stage = "sms_map_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({next_stage})
-        Archipelago:Get({next_stage})
+        cur_stage = "sms_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({cur_stage})
+        Archipelago:Get({cur_stage})
     end
 end
 
@@ -175,28 +176,29 @@ end
 
 function onNotify(key, value, old_value)
 	if value ~= old_value then
-		if key == next_stage then
+		if key == cur_stage then
             print("map: "..value)
         end
 	end
 end
 
 function onNotifyLaunch(key, value)
-    if key == next_stage then
-        print("map: "..value)
+    if key == cur_stage then
+            print("map: "..value)
     end
 end
 
--- function onMapChange(key, value, old)
---     print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
---     print(dump_table(MAP_MAPPING[tostring(value)]))
 
---     tabs = MAP_MAPPING[tostring(value)]
---     for i, tab in ipairs(tabs) do
---         Tracker:UiHint("ActivateTab", tab)
---     end
--- end
-
+function onMapChange(key, value, old)
+    -- print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+    -- print(dump_table(MAP_MAPPING[tostring(value)]))
+    if has("automap_on") then
+    tabs = MAP_MAPPING[tostring(value)]
+    for i, tab in ipairs(tabs) do
+        Tracker:UiHint("ActivateTab", tab)
+        end
+    end
+end
 
 
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -204,5 +206,5 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
--- Archipelago:AddSetReplyHandler("map_key", onMapChange)
--- Archipelago:AddRetrievedHandler("map_key", onMapChange)
+Archipelago:AddSetReplyHandler("map_key", onMapChange)
+Archipelago:AddRetrievedHandler("map_key", onMapChange)

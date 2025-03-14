@@ -992,8 +992,7 @@
           {
             "name": "The Wilted Sunflowers",
             "access_rules":[
-              "$spray, $hover",
-              "$skipPinnaYoshi"
+              "$spray, $hover"
             ],
             "item_count": 1
           }
@@ -1010,7 +1009,8 @@
         "name": "Episode 5",
         "visibility_rules":["episode5", "allepisodes"],
         "access_rules": [
-          "$spray, $hover"
+          "$spray, $hover",
+          "$skipPinnaYoshi, $spray"
         ],
         "sections": [
           {
