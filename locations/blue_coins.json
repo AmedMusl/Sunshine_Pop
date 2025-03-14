@@ -3260,7 +3260,7 @@
         "name": "White Painting",
         "visibility_rules":["episode3", "episode4", "episode5", "episode7", "episode8", "allepisodes"],
         "access_rules": [
-          "$spray"
+          "$yoshi"
         ],
         "sections": [
           {
